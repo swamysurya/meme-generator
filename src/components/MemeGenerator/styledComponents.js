@@ -6,6 +6,7 @@ export const MemeGeneratorContainer = styled.div`
     font-family:"Open Sans"
     justify-content:flex-start;
     align-items:center;
+<<<<<<< HEAD
     border-style:solid;
     padding:5rem;
 
@@ -14,25 +15,64 @@ export const MemeGeneratorContainer = styled.div`
         gap:3rem;
     }
     
+=======
+    
+    padding:4rem;
+>>>>>>> main
 `
 export const MemeHeading = styled.h1`
     color:#35469c;
     font-size:26px;
     text-align:center;
+<<<<<<< HEAD
+=======
+    @media screen and (min-width:768px){
+        margin-right:auto;
+    }
+`
+
+export const MemeAndFormContainer = styled.div`
+    display:flex;
+    flex-direction:column;
+    
+    width:100%;
+    @media screen and (min-width:768px){
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+>>>>>>> main
 `
 export const MemeImage = styled.div`
     background-image:url(${props => props.imageUrl});
     height:300px;
+<<<<<<< HEAD
     background-size:cover;
     display:${props => (props.smallscreenimage ? 'flex' : 'none')};
+=======
+    font-size:${props => props.font + 'px'};
+    background-size:cover;
+    display:flex;
+>>>>>>> main
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
     color:#ffffff;
+<<<<<<< HEAD
 
     @media screen and (min-width:768px){
         display:${props => (props.largescreenimage ? 'flex' : 'none')};
         width:400px;
+=======
+    margin:1rem 0rem;
+    order:-1;
+
+    @media screen and (min-width:768px){
+        width:400px;
+        margin:2rem;
+        order:2;
+>>>>>>> main
     }    
 `
 export const InputContainer = styled.div`
@@ -58,10 +98,15 @@ export const FontSelectElement = styled.select`
     border-color:#d7dfe9;
 `
 export const MemeText = styled.p`
+<<<<<<< HEAD
     font-size:${props => props.font + 'px'};
     font-weight:600;
     width:90%;
     border-style:solid;
+=======
+    font-weight:600;
+    width:90%;
+>>>>>>> main
     text-align:center
 `
 export const GenerateButton = styled.button`
