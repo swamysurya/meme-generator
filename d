@@ -1,0 +1,9 @@
+safe.directory=/home/nxtwave/reactjs/coding-practices/memeGenerator
+safe.directory=/home/nxtwave/reactjs/coding-practices/memeGenerator
+safe.directory=/home/nxtwave/reactjs/coding-practices/memeGenerator
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/swamysurya/meme-generator.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
